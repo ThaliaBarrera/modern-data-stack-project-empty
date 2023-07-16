@@ -4,7 +4,6 @@ setup(
     name="modern-data-stack-project",
     packages=find_packages(),
     install_requires=[
-        "dbt-core",
         "dbt-bigquery",
         "dagster",
         "dagster-cloud",
